@@ -34,7 +34,7 @@ provided under the **GNU General Public License v3.0** [here](https://github.com
 
 ## Howto
 1. install Microsoft Visual Studio 2022 on your Windows 64-bit machine: https://github.com/KilianKegel/Howto-setup-a-UEFI-Development-PC?tab=readme-ov-file#install-visual-studio-2022
-2. get entire project from here: https://github.com/KilianKegel/Visual-THE-C-BOOK-for-UEFI
+2. get entire project from here: https://github.com/KilianKegel/THE-C-BOOK-for-UEFI-with-VisualStudio
 3. open the solution file **Visual-THE-C-BOOK-for-UEFI.sln** in Visual Studio 2022
 
 ## Revision history
