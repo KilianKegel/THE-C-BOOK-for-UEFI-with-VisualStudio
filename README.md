@@ -37,6 +37,10 @@ provided under the **GNU General Public License v3.0** [here](https://github.com
 2. get entire project from here: https://github.com/KilianKegel/THE-C-BOOK-for-UEFI-with-VisualStudio
 3. open the solution file **Visual-THE-C-BOOK-for-UEFI.sln** in Visual Studio 2022
 
+**ATTENTION:** Sample programs rely on ASCII character set. UEFI UNICODE files can't be handled.
+
 ## Revision history
+### 20241031
+* add C Library sourcecode
 ### 20240922
 * Initial release

@@ -83,6 +83,10 @@
       <EntryPointSymbol>_cdeCRT0UefiShell</EntryPointSymbol>
       <GenerateMapFile>true</GenerateMapFile>
     </Link>
+    <PostBuildEvent>
+      <Command> IF DEFINED MYUSBSHARE copy /y "$(OutDir)$(TargetName)$(TargetExt)" $(MYUSBSHARE) &amp; copy /y "$(OutDir)$(TargetName)$(TargetExt)" $(ProjectDir)</Command>
+      <Message>copy /y "$(OutDir)$(TargetName)$(TargetExt)" $(MYUSBSHARE)</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='WINDBG|x64'">
     <ClCompile>
@@ -116,6 +120,14 @@
       <EntryPointSymbol>_cdeCRT0WinNT</EntryPointSymbol>
       <GenerateMapFile>true</GenerateMapFile>
     </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
