@@ -40,6 +40,9 @@ provided under the **GNU General Public License v3.0** [here](https://github.com
 **ATTENTION:** Sample programs rely on ASCII character set. UEFI UNICODE files can't be handled.
 
 ## Revision history
+### 20250906
+* support **VS2022 v17.14**
+    * update **toro C Library 20250906, v0.9.6 Build 757**
 ### 20241031
 * add C Library sourcecode
 ### 20240922
